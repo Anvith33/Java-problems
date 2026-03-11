@@ -1,0 +1,15 @@
+public class swapwithout {
+    public static void main(String[] args)   
+    {
+    
+        int a=1;
+        int b=2;    
+        System.out.println("Before swapping:"+a+" "+b);
+        a=a+b;
+        b=a-b;
+        a=a-b;
+         System.out.println("after swapping:"+a+" "+b);
+
+    }
+    
+}
